@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.16.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "rmsdb",
+    "libraryId": "966e424a-ed06-435f-a0b9-9a5cf13bbff4",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "rmsdb",
+    "solutionShortDescription": "rmsdb description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

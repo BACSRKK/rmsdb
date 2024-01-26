@@ -1,0 +1,53 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+@import 'node_modules/office-ui-fabric-react/dist/css/fabric.css';
+
+:global {
+  #workbenchPageContent,
+  .CanvasComponent.LCS .CanvasZone {
+    max-width: 1350px !important;
+  }
+}
+
+.Rmsdb {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .block{
+    border:solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border-width: 2px;
+    position: relative;
+    padding: 20px;
+  }
+
+  .blockTitle{
+    padding: 20px;
+    height: 20px;
+    border: solid;
+    background-color: grey;
+    color: white;
+  }
+
+  .txtStyles{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(50, 49, 48);
+    box-shadow: none;
+    margin-bottom: 10px;
+    padding: 0px 8px 0px 8px;
+    height: 32px;
+    box-sizing: border-box;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  }
+  
+  .txtStyles:focus{
+    border-color: #4EBDE5;
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "rmsdb-client-side-solution",
+    "id": "966e424a-ed06-435f-a0b9-9a5cf13bbff4",
+    "version": "1.0.0.3",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "rmsdb description"
+      },
+      "longDescription": {
+        "default": "rmsdb description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "rmsdb Feature",
+        "description": "The feature that activates elements of the rmsdb solution.",
+        "id": "afda0af0-9b08-4078-98f3-eb57084b156c",
+        "version": "1.0.0.1"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/rmsdb.sppkg"
+  }
+}

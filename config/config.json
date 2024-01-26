@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "rmsdb-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/rmsdb/RmsdbWebPart.js",
+          "manifest": "./src/webparts/rmsdb/RmsdbWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RmsdbWebPartStrings": "lib/webparts/rmsdb/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
