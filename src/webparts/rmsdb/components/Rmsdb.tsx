@@ -35,7 +35,7 @@ const searchResultLabelStyles: Partial<ILabelStyles> = {
 
 const iconStyles: Partial<IIconStyles> = {
   root: {
-    color: '#1A608F',
+    color: '#1A608F', 
   }
 };
 
